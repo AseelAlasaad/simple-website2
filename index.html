@@ -1,0 +1,216 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header> 
+        <div class="headerLogo">
+            <img src="img/home13.png" class='home13'>
+            <h1>REAL ESTATE COMPANY	&trade; </h1>
+            <img src="img/home-home.png" alt="" class='home6'>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Real-Estates</a>
+                </li>
+
+                <li>
+                    <a href="#">Real-Estates</a>
+                </li>
+
+                <li>
+                    <a href="#">Real-Estates</a>
+                </li>
+                <li>
+                    <a href="#">Real-Estates</a>
+                </li>
+            </ul>
+           
+        </nav>
+        
+    </header>
+    <hr>
+    <main>
+
+     
+        <!-- Slide show element -->
+     
+        <ul>
+            <li>
+                <div class="slideshow-container" id="mainSlider">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 10</div>
+                        <img src="img/p1/img1.jpg" style="width:100%" id="0">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 10</div>
+                        <img src="img/p2/img1.jpg" style="width:100%" id="1">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 10</div>
+                        <img src="img/p3/img1.jpg" style="width:100%" id="2">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 10</div>
+                        <img src="img/p4/img1.jpg" style="width:100%" id="3">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 10</div>
+                        <img src="img/p5/img1.jpg" style="width:100%" id="4">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 10</div>
+                        <img src="img/p6/img1.jpg" style="width:100%" id="5">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 10</div>
+                        <img src="img/p7/img1.jpg" style="width:100%" id="6">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 10</div>
+                        <img src="img/p8/img1.jpg" style="width:100%" id="7">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 10</div>
+                        <img src="img/p9/img1.jpg" style="width:100%" id="8">
+
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 10</div>
+                        <img src="img/p10/img1.jpg" style="width:100%" id="9">
+
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center" id="doNavigator">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+
+                </div>
+                <!-- <section class="carousel" aria-label="Gallery">
+                    <ol class="carousel__viewport">
+                        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                            <img src="img/p1/img2.jpg" alt="" width="100%" height="100%">
+                            <div class="carousel__snapper">
+                                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                            </div>
+                        </li>
+                        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                        </li>
+                        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                        </li>
+                        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                        </li>
+                    </ol>
+                    <aside class="carousel__navigation">
+                        <ol class="carousel__navigation-list">
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                            </li>
+                        </ol>
+                    </aside>
+                </section> -->
+            </li>
+
+        </ul>
+
+        <section>
+
+            <img src="img/p2/img3.jpg" id="selectedItem" />
+            <div>
+                <h2>Property Specifications</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque repellat amet id officia
+                    perspiciatis magnam alias debitis repellendus omnis? Odio obcaecati eligendi, illo distinctio quis
+                    fugiat. Placeat sequi dolor accusantium.
+                    <br>
+                    <br>
+                    Doloribus, eos dolore illo facilis inventore laudantium ducimus ad libero, tempore nihil pariatur
+                    dicta molestiae nisi id itaque minus similique doloremque quis voluptatum atque officia ea, quaerat
+                    rerum. Esse, necessitatibus.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est impedit, asperiores dolorem ipsam ad
+                    blanditiis explicabo. Esse corrupti ratione in obcaecati iusto hic, illo perspiciatis ut quas
+                    sapiente culpa harum.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est impedit, asperiores dolorem ipsam ad
+                    blanditiis explicabo. Esse corrupti ratione in obcaecati iusto hic, illo perspiciatis ut quas
+                    sapiente culpa harum.
+                </p>
+
+                <button>Order</button>
+
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer> &copy;; </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
